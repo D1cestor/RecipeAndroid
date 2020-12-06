@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Recipe</string>
+    <string name="tab_text_1">Recipe of the day</string>
+    <string name="tab_text_2">Beef</string>
+    <string name="tab_text_3">Chicken</string>
+    <string name="tab_text_4">Dessert</string>
+    <string name="tab_text_5">Lamb</string>
+    <string name="title_activity_display_recipe">DisplayRecipe</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
