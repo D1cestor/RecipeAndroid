@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fragments = new ArrayList<>();
-        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood",R.layout.fragment_recipeoftheday));
-        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Beef",R.layout.fragment_recipeoftheday));
-        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Chicken",R.layout.fragment_recipeoftheday));
-        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert",R.layout.fragment_recipeoftheday));
-        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Lamb",R.layout.fragment_recipeoftheday));
+        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood",R.layout.fragment_recipe_container));
+        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Beef",R.layout.fragment_recipe_container));
+        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Chicken",R.layout.fragment_recipe_container));
+        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Dessert",R.layout.fragment_recipe_container));
+        fragments.add(new Fragment_DisplayAll("https://www.themealdb.com/api/json/v1/1/filter.php?c=Lamb",R.layout.fragment_recipe_container));
         SectionsPagerAdapter sectionsPagerAdapter = new SectionsPagerAdapter(this, getSupportFragmentManager(),fragments);
         ViewPager viewPager = findViewById(R.id.view_pager);
         viewPager.setAdapter(sectionsPagerAdapter);
